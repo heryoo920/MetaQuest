@@ -4,5 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Plugins/Android/OculusMetaQuest.unity
+    guid: c378dd06f17c44afaa76d9d4420e1f6c
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f953f63ea67d64d5580cf262900733bc, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6fd7c386d72b7496e82e761155212eba, type: 2}
